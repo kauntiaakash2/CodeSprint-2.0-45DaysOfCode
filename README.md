@@ -78,7 +78,7 @@ Feel free to fork this repository and create pull requests if you have optimizat
 ## 📧 **Contact Me**
 
 * **GitHub:** [kauntiaakash2](https://github.com/kauntiaakash2)
-* **Email:** [bhuwan.agarwal@example.com](mailto:bhuwan.agarwal@example.com)
+* **Email:** [akashkauntia2006@gmail.com](mailto:akashkauntia2006@gmail.com)
 
 Stay tuned for updates as the challenge progresses! Let's code, learn, and grow together! 🔥
 
