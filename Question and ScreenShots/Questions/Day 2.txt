@@ -1,0 +1,63 @@
+Question 1 (MAGICAL DAYS IN CODING MARATHON)
+
+Problem Statement
+
+Ritik participated in a coding marathon that spanned over n days. Each day, he earned a score based on his performance. However, the Magic Scoreboard follows a unique rule:
+
+A day is considered "magical" if the score on that day is strictly greater than both the previous day's and the next day's scores. 
+
+Note: The first and last days are not considered for magical checks, as they do not have both neighbors. 
+Your task: Count how many magical days Ritik had during the marathon. 
+
+Input:
+An integer n where 3 ≤ n ≤ 100- the number of days in the marathon. 
+A list of n integers - the scores Ritik earned on each day. 
+
+Output:
+A single integer the number of magical days. 
+
+Examples:
+ 
+Example 1: 
+Input: n = 7 scores [10, 20, 15, 18, 17, 19, 14] 
+Output: 3 
+Explanation: Day 2: 20 > 10 and 15 Day 4: 18 > 15 and 17 Both are magical days. 
+
+Example 2: 
+Input: n = 5 scores [5, 3, 4, 2, 1] 
+Output: 1 
+Explanation: Day 3: 4 > 3 and 2 Only one magical day.
+
+------------------------------------------------------------------------------------------------------------------
+
+Question 2 (Critical Jam Hours Detection)
+
+Problem Statement 
+
+Roni is developing a smart traffic monitoring app to analyze vehicle flow on a busy highway. Every hour, the app records the number of vehicles passing through a checkpoint. 
+After collecting data for n hours, Roni wants to identify critical jam hours to understand when traffic congestion becomes significant. 
+
+A critical jam hour is defined as an hour that satisfies both of the following conditions: 
+
+The number of vehicles during that hour is greater than or equal to 50. 
+The number is also greater than the previous hour's count. 
+
+Note: The first hour cannot be considered a critical jam hour since it has no previous data to compare. 
+
+Input Format: 
+An integer n- the total number of hours (n ≥ 1). 
+An array of n integers the number of vehicles recorded each hour.
+
+ Output Format: 
+A single integer the number of critical jam hours. 
+
+Example 
+Input: 7 
+45 52 49 61 62 58 70 
+Output: 4 
+
+Explanation: 
+Hour 2: 52 ≥ 50 and 52 > 45 
+Hour 4: 61 ≥ 50 and 61 > 49 
+Hour 5: 62 ≥ 50 and 62 > 61 
+Hour 7: 70 ≥ 50 and 70 > 58 Total = 4 critical jam hours.

@@ -1,0 +1,37 @@
+Question 1
+
+Problem Statement Shivam loves ice cream. Every day after college, he visits the ice cream cart near the gate. Today, he has a few coins in his pocket and a fixed budget. There are different ice creams priced differently, but he wants to buy only one that fits exactly into his budget.
+
+Write a function that takes an integer budget and a list of integers iceCreamPrices, and returns true if there exists at least one ice cream whose price is exactly equal to the budget, otherwise return false.
+
+Input An integer budget where budget ≥ 0 A list of integers iceCreamPrices (1 ≤ length ≤ 1000, 1 ≤ price ≤ 10⁴) Output A boolean value:
+
+true if there's a price that matches the budget false otherwise Example Example 1 Input:
+
+budget = 30 iceCreamPrices = $10, 25, 30, 50]
+
+Output:
+
+true
+
+Explanation: Shivam can buy the ice cream priced at 30, which matches his budget exactly.
+
+------------------------------------------------------------------------------------------------------------------
+
+Question 2
+
+Problem Statement Vir is practicing archery. He takes n shots and records the score of each shot (an integer between 0 and 10). Now, Vir wants to know:
+
+How many shots scored above or equal to 7 (considered a good shot) How many shots scored below 7 (considered a missed shot) Write a program that takes the number of shots and their scores, then prints the count of good shots and missed shots.
+
+Input An integer n (number of shots), where 1 ≤ n ≤ 100 An array of n integers representing scores of each shot (0 ≤ score ≤ 10) Output Two integers separated by a space:
+
+Number of good shots (score ≥ 7) Number of missed shots (score < 7) Example Example 1 Input:
+
+5 8 6 7 10 4
+
+Output:
+
+3 2
+
+Explanation: Good shots: 8, 7, 10 → 3 shots Missed shots: 6, 4 → 2 shots
