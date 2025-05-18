@@ -1,0 +1,81 @@
+DAY 3 Problem 1
+Count Overstocked Warehouses
+
+2D Arrays | Loops | Conditional
+
+📖Problem Statement:
+
+Anubha is managing inventory across multiple warehouses in the city. Each warehouse has different types of items, and she stores the stock data in a 2D array.
+-Each row represents a warehouse.
+-Each column represents a product type.
+-Each cell stock[i][j] represents the number of units of product type j stored in warehouse i.
+
+A warehouse is considered "overstocked" if 3 or more product types in that warehouse have stock greater than or equal to 100 units.
+Your task is to help Anubha count how many warehouses are overstocked based on this rule.
+
+*Input Format:
+-Two integers r and c — the number of warehouses and number of product types.
+-Followed by r × c integers representing the stock levels in the warehouses (row-wise).
+
+*Output Format:
+-A single integer: the number of overstocked warehouses.
+
+*Example:
+-Input
+3 5
+120 80 150 130 90
+95 60 40 50 70
+100 105 110 95 115
+
+-Output
+2
+
+*Explanation
+-Warehouse 0: 120 80 150 130 90 → Items ≥ 100: 120, 150, 130 → Overstocked
+-Warehouse 1: 95 60 40 50 70 → Items ≥ 100: none → Not overstocked
+-Warehouse 2: 100 105 110 95 115 → Items ≥ 100: 100, 105, 110, 115 → Overstocked
+So, the number of overstocked warehouses is 2.
+
+*Constraints
+
+-0 ≤ r, c ≤ 100
+-0 ≤ stock[i][j] ≤ 1000
+
+----------------------------------------------------------------------------------------------------
+
+DAY 3 Problem 2
+Find Longest Strictly Increasing Temperature Subarray
+
+Loops | Conditional | 1D Array
+
+📖Problem Statement:
+
+Akshat is monitoring the daily temperature readings for a city over n days, stored in an array temps.
+He wants to find the length of the longest strictly increasing subarray of temperature readings.
+
+A strictly increasing subarray means each element is greater than the previous one, and it must be continuous (i.e., no skipping of days).
+Your task is to help Akshat find the length of the longest strictly increasing continuous period.
+
+*Input Format
+- An integer n — representing the number of days.
+- An array of n integers — representing the temperature readings.
+
+*Output Format
+- A single integer — the length of the longest strictly increasing subarray.
+
+*Example:
+-Input
+8
+15 16 17 13 14 15 16 12
+
+-Output:
+4
+
+*Explanation:
+- The longest strictly increasing subarray is:
+[13, 14, 15, 16]
+- Which has a length of 4.
+
+*Constraints:
+- 1 ≤ n ≤ 10^5
+- 1000 ≤ temps[i] ≤ 1000
