@@ -14,15 +14,16 @@ Welcome to **CodeSprint 2.0**, a 45-day coding challenge hosted by USC.KIIT! Thi
 
 ---
 
-## 🚀 **Daily Progress Log**
+## 🚀 **Daily Progress Log** 
 
-| Day | Date         | Topic / Problem Solved                 | Language / Tech Stack |
-| --- | ------------ | -------------------------------------- | --------------------- | --------------- |
-| 1   | May 16, 2025 | Can Shivam Buy IceCream? & Vir's Archery Practice | C++, Basic Maths, Conditionals & Loops    |
-| 2   | May 17, 2025 | MAGICAL DAYS IN CODING MARATHON & Critical Jam Hours Detection | C++, Array , Sorting Techniques |
-| 3   | May 18, 2025 | Count Overstocked Warehouses & Find Longest Strictly Increasing Temperature Subarray         | C++, 2D & 1D Array , Sorting Techniques & Loops          |
+| **Day** | **Date**     | **Topic / Problem Solved**                                                   | **Language / Tech Stack**                           |
+|----------|--------------|------------------------------------------------------------------------------|-----------------------------------------------------|
+| 1        | May 16, 2025 | Can Shivam Buy IceCream? & Vir's Archery Practice                            | C++, Basic Maths, Conditionals & Loops              |
+| 2        | May 17, 2025 | MAGICAL DAYS IN CODING MARATHON & Critical Jam Hours Detection               | C++, Array, Sorting Techniques                      |
+| 3        | May 18, 2025 | Count Overstocked Warehouses & Find Longest Strictly Increasing Temperature Subarray | C++, 2D & 1D Array, Sorting Techniques & Loops     |
 
-*... Daily logs will be updated continuously(Currently Not Updated).*
+
+*... Daily logs will be updated continuously.*
 
 ---
 
