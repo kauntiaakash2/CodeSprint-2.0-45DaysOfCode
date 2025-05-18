@@ -44,6 +44,15 @@ Welcome to **CodeSprint 2.0**, a 45-day coding challenge hosted by USC.KIIT! Thi
 4. **Critical Jam Hour's Detection**
 
     * Conditionals, Loops, and Arrays
+
+5. **Count Overstocked Warehouses**
+
+    * C++, 2D Array, Conditionals & Loops
+
+6. **Find Longest Strictly Increasing Temperature Subarray**
+
+    * C++, 1D Array, Conditionals & Loops
+
 ---
 
 ## 📚 **Learning Outcomes**
