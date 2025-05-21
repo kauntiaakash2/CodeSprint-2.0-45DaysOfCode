@@ -1,0 +1,86 @@
+Emotional Balance in a String
+
+Problem Statement
+-----------------
+Aashriya recently found her childhood diary filled with random strings she used to write when she was upset or happy. Some of these strings were just gibberish, but her older self wonders:
+"Was there some emotional balance even in my chaotic thoughts?"
+She believes a string represents emotional balance if every character appears the same number of times.
+It doesn’t matter which characters are — just that their frequencies are equal.
+Your task is to help Aashriya find out if her string of thoughts (diary entry) was emotionally balanced or not.
+
+Input
+-----
+A single string s (1 ≤ length ≤ 1000), consisting only of lowercase English letters (a-z).
+
+Output Format
+-------------
+-- If all characters appear the same number of times, print: 
+   Aashriya smiles: Emotional balance found.
+
+-- Otherwise, print: 
+   Aashriya wonders: These thoughts were scattered.
+
+Example Input 1
+---------------
+abacc
+
+Example Output 1
+----------------
+Aashriya smiles: Emotional balance found.
+
+Example Input 2
+---------------
+aabbcc
+
+Example Output 2
+----------------
+Aashriya wonders: These thoughts were scattered.
+
+Explanation
+-----------
+Example 1: Characters a, b, and c each appear exactly 2 times → balanced
+Example 2: a and b appear 2 times, but c appears 3 times → not balanced
+
+Constraints
+-----------
+1 ≤ |s| ≤ 1000
+Only lowercase letters
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Day 5 Problem 2
+mm @ Exam Seating Arrangement - Checkerboard
+Pattern
+
+Gegiam Matrix Loops Conditions | Simulation
+
+* Problem Statement
+
+8 Problem Statement
+
+Mehek is a student coordinator helping her college plan the seating arrangement for a university
+exam in a large hall. The hall is represented as ann x n matrix (0-indexed), where each cell
+corresponds to a seat.
+
+To maintain fairness and prevent cheating, the college follows this rule:
+
+A seat is considered valid only if no immediate neighbor (top, bottom, left, or right) is occupied.
+Students are to be seated in a checkerboard pattern starting from the top-left corner (@, @).
+That is, a student is seated at cell (i, j) if:
+
+(i+ j)%2==
+
+@ Input
+
+A single integer n (1 < n < 50), representing the number of rows and columns in the hall.
+
+@ Output Format
+
+-- Print the n x n matrix, row-wise:
+
+Each value should be either 1 (student seated) or @ (empty seat).
+
+Each row on a new line, with values separated by a single space (no trailing spaces).
+
+-- On the final line, print: Total students seated: X , where X is the total number of students seated.
