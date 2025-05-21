@@ -1,0 +1,93 @@
+
+Day6
+
+---
+
+Problem 1: Jewel Stones Counter
+
+Problem Statement:
+Rahil has a collection of stones he found during his hiking trip. Among them, some stones are actually precious jewels gifted to him by his grandmother.
+Each type of jewel is represented by a unique character in a string called jewels.
+His entire stone collection is represented by another string called stones.
+Each character in the stones string represents one stone that Rahil has.
+Your task is to help Rahil count how many of the stones in his collection are actually jewels.
+- Letters are case-sensitive. That means 'a' and 'A' are considered different types of stones.
+
+Input:
+A string jewels — the types of stones that are jewels.
+A string stones — the stones Rahil has.
+
+Output:
+A single integer — the number of stones that are jewels.
+
+Constraints:
+1 ≤ jewels.length, stones.length ≤ 50
+jewels and stones consist only of English letters (both uppercase and lowercase).
+All characters in jewels are unique.
+
+Example 1:
+Input:
+aA
+aAAbbbb
+Output:
+3
+
+Example 2:
+Input:
+z
+ZZ
+Output:
+0
+
+Explanation:
+In Example 1, jewels = 'aA' and stones = 'aAAbbbb'. The jewels 'a' and 'A' appear 1 and 2 times respectively, for a total of 3 jewels.
+In Example 2, jewel = 'z' and no matching stone in 'ZZ', so the result is 0.
+
+---
+
+Problem 2: Vowel-Starting Unique Patient Names
+
+Problem Statement:
+Dr. Kavya works at a busy hospital managing patient records. Every day, she receives a list of patient names who visited for checkups. Some patients come multiple times in the same day due to follow-ups.
+Dr. Kavya wants to generate a list of unique patients she saw today, but only those whose names start with a vowel (a, e, i, o, u).
+
+Your task is to help Dr. Kavya:
+1. Read the list of patient names for the day.
+2. Identify all unique patient names that start with a vowel.
+3. Print the count of such unique patients followed by their names in the order they first appeared.
+
+Input:
+An integer n (1 ≤ n ≤ 100) — number of patient entries for the day.
+Followed by n lines, each containing one patient name (lowercase English letters, no spaces).
+
+Output Format:
+First line: the count of unique patients whose names start with a vowel.
+Next lines: the unique patient names starting with a vowel, printed in the order they first appeared.
+
+Example Input:
+8
+arjun
+rita
+anita
+arjun
+omkar
+priya
+anita
+uma
+
+Example Output:
+4
+arjun
+anita
+omkar
+uma
+
+Explanation:
+The list of patients is:
+arjun, rita, anita, arjun, omkar, priya, anita, uma
+The names starting with vowels are:
+arjun, anita, omkar, uma
+Duplicates are removed, preserving the order of first appearance.
+So, the output is:
+Count = 4
+Names = arjun, anita, omkar, uma
