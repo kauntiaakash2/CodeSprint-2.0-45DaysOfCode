@@ -1,0 +1,139 @@
+
+
+--------------------------------------------------------------------------------<> Movement Segment Counter
+BD Strings Binary Logic| Conditions
+
+# Problem Statement
+
+Problem Statement
+
+Kavya, a software engineer, developed a smart home security system that logs movement as a
+binary string for each day:
+
+*1" indicates someone entered or exited the house.
+
+"@' means no movement was detected during that time interval.
+
+She wants to analyze the log to count the number of distinct segments of movement recorded in
+aday.
+
+A segment of movement is defined as a continuous sequence of *1's that is either:
+Surrounded by *@"s on both sides, or
+
+At the start or end of the string.
+
+Your task is to determine how many such segments are present in the binary log.
+
+Input Format
+
+A single binary string log of length n (1 < n < 100), consisting only of "8" and ‘1* characters.
+Output Format
+
+A single integer: the number of movement segments recorded.
+
+Example
+
+Input
+
+0110011101010
+
+Output
+
+4
+
+Explanation
+
+In the binary log 0110011101010, the movement segments are:
+
+11 (starts at index 2-3)
+
+111 (starts at index 6-8)
+
+1 (at index 10)
+
+1 (at index 12)
+
+Each group of consecutive *1's is considered a segment only if it’s not part of another segment,
+thus totaling 4 segments.
+
+Constraints
+
+1 < Length of binary string < 100
+
+, Maximize Stock Profit with Minimum
+° Threshold
+
+EB Wena: Greasy | Francelogic
+
+2 Problem Statement
+
+Problem Statement
+
+Diyasha is a young entrepreneur tracking the daily prices of a particular stock over several days.
+Each day's price is recorded in an array.
+
+‘She wants to maximize her profit by choosing exactly one day to buy and a future day to sell
+the stock (buy before selling). She is allowed to make only one transaction.
+
+However, Diyasha has set a condition: she will only execute the trade if her profitis at least 2
+units, if no profit of atleast 2 is possible, she won't trade.
+
+Your task is to help Diyasha find the maximum profit she can make following this rule. If the
+profits less than 2, return 0.
+
+Input Format
+
+‘An integer n (2 < n £ 100), the number of days.
+
+A sequence of n space-separated integers representing the stock prices for each day.
+
+Output Format
+
+single integer representing the maximum profit (2 2), or 0 ifno such profit is possible.
+Example Input 1
+
+6
+
+715364
+
+Example Output 1
+
+5
+
+Explanation
+
+Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 5.
+
+Example Input 2
+
+5
+
+33445
+
+Example Output 2
+
+2
+
+Explanation
+
+Buy on day 1 or 2 (price = 3), sell on day 5 (price = 5), profit,
+Example Input 3
+
+4
+
+5566
+
+Example Output 3
+
+0
+
+Explanation
+
+Maximum profit is 1 (buy at 5, sell at 6), but since its less than 2, output is 0.
+Constraints
+
+2<n<100
+
+Prices are integers
+
+--------------------------------------------------------------------------------
