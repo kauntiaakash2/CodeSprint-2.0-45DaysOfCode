@@ -1,0 +1,129 @@
+=== Problem 1: Minimum Length Subarray for Calorie Goal ===
+
+<> Minimum Length Subarray for Calorie Goal
+SD Ge: Gwe Gan
+
+2% Problem Statement
+
+Problem Statement
+
+Tanvi has set a personal fitness goal to burn at least a certain number of calories, tracked over a
+‘sequence of workout sessions. Each session burns a positive number of calories, stored in an array
+‘She wants to determine the smallest number of consecutive sessions that together burn at least
+target calories.
+
+Write a program to help Tanvi find the minimum length of such a contiguous subarray. If there is
+no valid subarray, return 0,
+
+Input Format
+
+‘An integer target — the minimum total calories to be burned.
+
+‘An integer n— number of workout sessions.
+
+‘An array sessions of n positive integers — calories bumed in each session.
+
+Output Format
+
+single integer — the minimal length of a contiguous subarray with sum > target.
+
+Ino such subarray exists, output 0.
+
+Example
+
+Input 1
+
+target = 7 sessions = 2, 3,1, 2.4.3]
+
+Output 1
+
+2
+
+Explanation
+
+The subarray [4, 3] sums to 7 and is the shortest such subarray.
+
+Input 2
+
+target = 4 sessions = [1, 4,4]
+
+Output 2
+
+1
+
+Input 3
+
+target = 11 sessions = 11,1, 1,1,1,1,1,1]
+
+Output 3
+
+o
+
+Constraints
+
+1 S target < 10°
+
+1sns10
+
+1 § sessionsii] < 10"
+
+
+=== Problem 2: Reverse and Clean the Speech Line ===
+
+<> Reverse and Clean the Speech Line
+
+GGA strings Word Maniputation Text Formatting
+
+# Problem Statement
+
+Problem Statement
+Anubhav is preparing for a public speaking competition. The night before the event, he wrote
+
+down the key sentence of his speech in a hurry. The problem? He scribbled it down in the wrong
+word order, with extra spaces, and even left some leading or tr
+
+ing spaces.
+
+Now he wants to reverse the order of words in his sentence so it reads properly in his final script.
+You're given a string speechLine that represents what Anubhav originally wrote. A word is
+defined as a sequence of non-space characters. The words in the sentence are separated by at
+least one space, and there might be multiple spaces between words or on the edges.
+
+Your task is to help Anubhav clean up the sentence by:
+
+Reversing the order of the words.
+
+Removing any leading, trailing, or extra spaces.
+
+Ensuring that words are separated by exactly one space.
+
+Input Format
+
+A single line of text speechLine — Anubhav's original sentence.
+
+(1 < length < 104)
+
+The sentence may include letters, digits, and spaces, and will contain at least one word.
+Output Format
+
+A single line — the cleaned-up version of Anubhav's sentence with:
+Words in reverse order,
+
+Exactly one space between words,
+
+No leading or trailing spaces.
+
+Examples
+
+Input 1:
+speechLine = “iam coding daily in codesprint”
+Output 1:
+
+codesprint in daily coding am i
+
+Input 2:
+
+speechLine = “ there is no heart for me like yours *
+Output 2:
+
+yours like me for heart no is there
