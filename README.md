@@ -14,47 +14,6 @@ Welcome to **CodeSprint 2.0**, a 45-day coding challenge hosted by USC.KIIT! Thi
 
 ---
 
-## 🚀 **Daily Progress Log** 
-
-| **Day** | **Date**     | **Topic / Problem Solved**                                                   | **Language / Tech Stack**                           |
-|----------|--------------|------------------------------------------------------------------------------|-----------------------------------------------------|
-| 1        | May 16, 2025 | Can Shivam Buy IceCream? & Vir's Archery Practice                            | C++, Basic Maths, Conditionals & Loops              |
-| 2        | May 17, 2025 | MAGICAL DAYS IN CODING MARATHON & Critical Jam Hours Detection               | C++, Array, Sorting Techniques                      |
-| 3        | May 18, 2025 | Count Overstocked Warehouses & Find Longest Strictly Increasing Temperature Subarray | C++, 2D & 1D Array, Sorting Techniques & Loops     |
-
-
-*... Daily logs will be updated continuously.*
-
----
-
-## ✨ **Key Problem**
-
-1. **Can Shivam Buy IceCream**
-
-    * Basic Maths, Conditionals and Loops
-
-2. **Vir's Archery Practice**
-
-   * Basic Maths, Conditionals and Loops
-
-3. **Magical Days In The Coding Marathon**
-
-    * Conditionals, Loops, and Arrays
-
-4. **Critical Jam Hour's Detection**
-
-    * Conditionals, Loops, and Arrays
-
-5. **Count Overstocked Warehouses**
-
-    * C++, 2D Array, Conditionals & Loops
-
-6. **Find Longest Strictly Increasing Temperature Subarray**
-
-    * C++, 1D Array, Conditionals & Loops
-
----
-
 ## 📚 **Learning Outcomes**
 
 * Mastery over core algorithms and data structures.
