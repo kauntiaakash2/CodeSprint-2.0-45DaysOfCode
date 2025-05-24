@@ -1,0 +1,153 @@
+
+
+================================================================================<> Anagram Detection in Log Stream
+(GBD stings atte Metering Hashing Anagrams Siding Window
+
+## Problem Statement
+
+‘Anagram Detection in Log Stream
+Problem Statement
+
+Shreya, a backend developer, is analyzing backend server logs to detect possible unauthorized
+‘access or automated bot attacks. These suspicious activities often appear as repeated but
+scrambled patterns in the log stream.
+
+To automate this detection, Shreya needs a function that searches for all positions in the log
+‘stream where an anagram of a given suspicious pattern appears.
+
+‘An anagram is any rearrangement of the characters in the pattern. For example, “abc” has valid
+‘anagrams like "bca", "cab", and "acb".
+
+Your task is to help Shreya find all the starting indices in the log stream where any anagram of the
+given pattern occurs.
+
+Input Format
+
+string logStream (1 < length < 30,000) — the continuous stream of log data
+
+A string pattern (1 < length < 30,000) — the suspicious pattern to be checked.
+
+Both strings contain only lowercase English letters.
+
+Output Format
+
+An array of integers — the starting indices in logStream where an anagram of pattern appears.
+The indices can be returned in any order.
+
+Example 1
+
+Input
+
+logStream = “cbaebabacd™
+
+pattern = "abc"
+
+Output
+
+0,6]
+
+Explanation
+
+Substring at index 0: "cba" is an anagram of “abc”.
+
+Substring at index 6: "bac" is also an anagram of "abc".
+
+Example 2
+
+Input
+
+logStream = “abab"
+
+pattern = "ab"
+
+Output
+
+01,2)
+
+Explanation
+
+Substrings at indices 0 ("ab"), 1 ("ba"), and 2 ("ab") are all valid anagrams of the pattern.
+Constraints
+
+1 < logStream.length < 30,000
+
+1 < pattern.length < 30,000
+
+All characters are lowercase English letters.
+
+
+<> [BR Pattern Match Detection using Hashing
+(GBB Stings Hashing Rabin-karpPatiern Matching
+
+## Problem Statement
+
+Pattern Match Detection Using Hashing
+Problem Statement
+
+‘Amrita works at an ed-tech startup that builds Al tools for universities. One of her key tasks isto
+develop a plagiarism detection engine that can quickly scan large documents for copied content.
+Fora simplified prototype, she wants to check whether a suspicious paragraph (called the pattern)
+‘appears exactly ina full document (called the text). To make the detection fast, Amrita is using a
+hashing technique:
+
+‘She computes hash values of the pattern and compares it with the hash of each substring of the
+same length in the text
+
+If the hashes match, she then confirms the match by directly comparing the actual characters (to
+avoid hash collisions).
+
+Your task is to help Amrita find all starting indices in the text where the pattern occurs exactly.
+Input Format
+
+string text — the main document to be scanned (length < 105).
+
+[string pattern — the suspected copied content (length < 10").
+
+Both strings contain only lowercase English letters.
+
+Output Format
+
+‘list of integers —all starting indices (0-based) in the text where the pattern exactly matches @
+substring.
+
+lf no matches are found, return an empty list.
+
+Brample 1
+
+Input
+
+text = “thisresearchworkisunique”™
+
+pattern = “search”
+
+Output
+
+6)
+
+Explanation
+
+The word “search” starts at index 6 in the text.
+
+Example 2
+
+Input
+
+text = “wehavereceivednoothermatch”
+
+pattern = “copy”
+
+Output
+
+o
+
+Explanation
+
+The pattern “copy” is not found anywhere in the text
+
+Constraints
+
+1s textlength < 100,000
+
+1 < patterength < 1,000
+
+All characters are lowercase English letters.
