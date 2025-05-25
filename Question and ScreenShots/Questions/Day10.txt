@@ -1,0 +1,144 @@
+--- Problem 1: Classic Keypad Letter Combinations Generator ---
+7 fl Classic Keypad Letter Combinations
+Generator markdown
+
+GA stings sactracng
+
+## Problem Statement
+
+Classic Keypad Letter Combinations Generator
+Problem Statement
+
+Shalini is a U/UX engineer at a leading mobile app development company. She is designing the
+keypad input system for a smart virtual assistant that allows users to type text using old-school
+mobile keypads — similar to those on classic feature phones.
+
+Each digit from 2 to 9 maps to specific letters based on the traditional mobile keypad layout:
+
+2 "abc"
+
+3 "der
+
+A "ghi"
+
+5- Kr
+
+6 —"mno"
+
+T= "pars
+
+8 "tu"
+
+9 = "way2™
+
+Your task is to implement the logic to generate all possible letter combinations based on a string
+of digits pressed by the user. The input will only contain digits from '2' to ‘9
+don't map to any letters).
+
+Input Format
+
+A string digits containing characters from '2' to’.
+
+Output Format
+
+Aist/array of all possible letter combinations that the input digits could represent.
+
+(since 1" and ‘0°
+
+You may return the combinations in any order.
+Constraints
+
+0 < digitslength < 4
+
+digits € [2:3
+Examples
+Example 1
+
+Input: digits = "23"
+Output ['ad’, "ae", “af”, "bd",
+Example 2
+Input: digi
+Output: 1
+Example 3
+
+oF, cd", "ce", “CFT
+
+Input: digits
+Output ['a",
+Explanation
+This is a backtracking/string combination problem where each digit maps to multiple characters.
+
+All possible strings are generated using recursive traversal or backtracking through each digit’s
+character set.
+
+--- Problem 2: Sorted Linked List Deduplication ---
+<> { Sorted Linked List Deduplication
+GH Lnvestiss Pointers Duplicates
+
+## Problem Statement
+
+Sorted Linked List Deduplication
+Problem Statement
+
+Preetesh recently joined a software startup as a backend developer inter. His team is building 2
+log deduplication system for a performance monitoring tool. The system records system event
+logs in sorted order using a singly linked list for memory efficiency and fast insertions.
+
+However, due to glitches, duplicate events can sometimes get stored consecutively. Preetesh is
+‘tasked with removing these consecutive duplicates from the linked lst, while preserving the
+criginal order and structure,
+
+Your task is to implement a function that takes the head of a sorted singly linked list and removes
+all consecutive duplicate elements, returning the updated linked list.
+
+Input Format
+
+A sorted singly linked list of integers.
+
+Each node contains an integer value.
+
+The linked list may contain consecutive duplicate values.
+
+Output Format
+
+The same linked list, but with all consecutive duplicates removed.
+
+Order of first occurrences must be preserved.
+
+Constraints
+
+The linked list is sorted in non-decreasing order.
+
+Number of nodes: 1 < n < 1000
+
+Node values: 0 < value < 1000
+
+Examples
+
+Example 1
+
+Input:
+
+Linked list: 1-> 1-> 2-> 3->3
+
+Output:
+
+15253
+
+Example 2
+
+Input:
+
+Linked List: 1-> 1-> 1->1
+
+Output:
+
+1
+
+Explanation
+
+The function traverses the linked list node-by-node.
+
+Ifthe current node's value is the same as the next node's value, the next node is removed.
+
+This continues until all consecutive duplicates are skipped, ensuring that only the first occurrence
